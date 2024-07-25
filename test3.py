@@ -4,7 +4,6 @@ import random
 # List of potential names for the character
 names = ["Tommy", "Chris", "Ahmed", "Kevin", "David"]
 character_name = random.choice(names)
-turns = 0
 
 
 
@@ -161,7 +160,7 @@ def play_game(turn_limit=5):
     global score
     global turns
     score = 0  # Initialize score
-
+    turns = 0
 
     while turns < turn_limit:
         turns = adventure_story(turns)
