@@ -154,7 +154,7 @@ def adventure_story(turn_limit=2):
     print(ending_message)
 
 while True:
-    if turns >= 2 :
+    if turns > 2 :
         break
     elif turns < 2 :
         adventure_story(turn_limit=2)
