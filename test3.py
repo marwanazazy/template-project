@@ -187,6 +187,8 @@ def play_game(turn_limit=5):
 
 # Example usage
 while turns <= 3 :
+    if score > 25 :
+        break
     play_game(turn_limit=3)
     play_again = invalid_input_handler("Play again? (yes/no): ", ["yes", "no"])
     if play_again != "yes":
