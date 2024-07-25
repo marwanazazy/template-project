@@ -65,7 +65,6 @@ def adventure_story(turns):
     Args:
         turns (int): The current number of turns taken.
     """
-    global score  # Ensure we use the global score variable
 
     character_weapon = ["sword", "broom", "knife"]
     weapon = random.choice(character_weapon)
